@@ -11,6 +11,8 @@ matplotlib = "*"
 
 [dev-packages]
 flake8 = "*"
+pre-commit = "*"
+flake8-nb = "*"
 
 [requires]
 python_version = "3.9"
