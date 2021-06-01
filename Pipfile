@@ -8,6 +8,8 @@ ipykernel = "*"
 pandas = "*"
 numpy = "*"
 matplotlib = "*"
+bs4 = "*"
+requests = "*"
 
 [dev-packages]
 flake8 = "*"
