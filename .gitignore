@@ -1,0 +1,18 @@
+# vscode config
+.vscode
+
+# environment variables
+.env
+
+# jupyter
+.ipynb_checkpoints
+
+# byte-compiled / optimized / DLL files
+pycache
+__pycache__
+*.py[cod]
+
+# IPython
+profile_default/
+ipython_config.py
+

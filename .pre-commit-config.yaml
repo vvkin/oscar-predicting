@@ -1,0 +1,14 @@
+repos:
+  - repo: local
+    hooks:
+    -  id: flake8
+       name: Check .py files with flake8
+       entry: flake8
+       language: python
+       types: [python]
+
+    -  id: flake8-nb
+       name: Check notebooks with flake8-nb
+       entry: flake8-nb
+       language: python
+       types: [jupyter]

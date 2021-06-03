@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+bs4 = "*"
+requests = "*"
+seaborn = "*"
+sklearn = "*"
+xgboost = "*"
+lightgbm = "*"
+
+[dev-packages]
+flake8 = "*"
+pre-commit = "*"
+flake8-nb = "*"
+
+[requires]
+python_version = "3.9"
